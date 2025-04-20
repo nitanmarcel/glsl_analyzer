@@ -79,7 +79,11 @@ mc_glsl_analyzer --port <PORT>
 [`nvim-lspconfig`](https://github.com/neovim/nvim-lspconfig) comes with support for `mc_glsl_analyzer`. Simply add the following to your lua config:
 
 ```lua
-require'lspconfig'.mc_glsl_analyzer.setup{}
+require'lspconfig'.glsl_analyzer.setup{
+    cmd = {
+        'mc_glsl_analyzer'
+    }
+}
 ```
 
 ### Visual Studio Code
@@ -87,3 +91,5 @@ require'lspconfig'.mc_glsl_analyzer.setup{}
 Install the
 [`glsl-analyzer`](https://marketplace.visualstudio.com/items?itemName=nolanderc.glsl-analyzer)
 extension from the marketplace. It will automatically download the latest precompiled binary for your platform.
+
+* Don't forget to set the executable to the one in this repo's [Release](https://github.com/nitanmarcel/glsl_analyzer/releases/latest)
