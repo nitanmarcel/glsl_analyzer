@@ -4,9 +4,11 @@ import sys
 import os
 from glob import iglob
 import json
+import yaml
 from bs4 import BeautifulSoup
 import tokenize
 import re
+
 
 keywords = []
 types = []
@@ -114,12 +116,34 @@ def process_docs_gl_file(path):
                 variable['description'] = description
                 variable['versions'] = version_support[0]
                 variables.append(variable)
+
         else:
             for i, node in enumerate(soup.find_all(attrs={'class':'funcprototype-table'})):
                 prototype = parse_prototype(node.getText())
                 prototype['description'] = description
                 prototype['versions'] = version_support[min(i, len(version_support) - 1)]
                 functions.append(prototype)
+
+
+def process_optifine_doc(path):
+    with open(path, "r") as fin:
+        data = yaml.load(fin, Loader=yaml.Loader)
+
+        keywords.extend(data["keywords"])
+        types.extend(data["types"])
+        operators.extend(data["operators"])
+        variables.extend(data["variables"])
+        functions.extend(data["functions"])
+
+def process_iris_doc(path):
+    with open(path, "r") as fin:
+        data = yaml.load(fin, Loader=yaml.Loader)
+
+        keywords.extend(data["keywords"])
+        types.extend(data["types"])
+        operators.extend(data["operators"])
+        variables.extend(data["variables"])
+        functions.extend(data["functions"])
 
 def paragraph_to_markdown(paragraph):
     if paragraph.math is not None and paragraph.math.mtable is not None:
@@ -583,6 +607,8 @@ scriptdir = os.path.dirname(sys.argv[0]) or '.'
 extension_files = [f for f in iglob(f'{scriptdir}/GLSL/extensions/*/*.txt')]
 docs_files = [f for f in iglob(f'{scriptdir}/docs.gl/sl4/*.xhtml')]
 glsl_html_spec = f'{scriptdir}/GLSLangSpec.4.60.html'
+optifine_doc_file = os.path.join(scriptdir, "optifine.yaml")
+iris_doc_file = os.path.join(scriptdir, "iris.yaml")
 
 work = 0
 total_work = len(extension_files) + len(docs_files) + 1
@@ -592,12 +618,19 @@ def progress(info):
     print(f'{work}/{total_work}: {info}')
     work += 1
 
+
 progress(glsl_html_spec)
 process_glsl_html_spec(glsl_html_spec)
 
 for i, path in enumerate(docs_files):
     progress(path)
     process_docs_gl_file(path)
+
+progress(optifine_doc_file)
+process_optifine_doc(optifine_doc_file)
+
+progress(iris_doc_file)
+process_iris_doc(iris_doc_file)
 
 for i, path in enumerate(extension_files):
     progress(path)

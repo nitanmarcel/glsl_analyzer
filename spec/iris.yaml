@@ -1,0 +1,794 @@
+comment: Iris
+functions: []
+keywords:
+- kind: glsl
+  name: IS_IRIS
+- kind: glsl
+  name: IRIS_FEATURE_SEPARATE_HARDWARE_SAMPLERS
+- kind: glsl
+  name: IRIS_FEATURE_PER_BUFFER_BLENDING
+- kind: glsl
+  name: IRIS_FEATURE_COMPUTE_SHADERS
+- kind: glsl
+  name: IRIS_FEATURE_ENTITY_TRANSLUCENT
+- kind: glsl
+  name: IRIS_FEATURE_SSBO
+- kind: glsl
+  name: IRIS_FEATURE_CUSTOM_IMAGES
+- kind: glsl
+  name: IRIS_FEATURE_HIGHER_SHADOWCOLOR
+- kind: glsl
+  name: IRIS_FEATURE_REVERSED_CULLING
+- kind: glsl
+  name: IRIS_FEATURE_BLOCK_EMISSION_ATTRIBUTE
+- kind: glsl
+  name: BIOME_PLAINS
+- kind: glsl
+  name: BIOME_RIVER
+- kind: glsl
+  name: BIOME_DESERT
+- kind: glsl
+  name: BIOME_SWAMP
+- kind: glsl
+  name: CAT_NONE
+- kind: glsl
+  name: CAT_TAIGA
+- kind: glsl
+  name: CAT_EXTREME_HILLS
+- kind: glsl
+  name: CAT_JUNGLE
+- kind: glsl
+  name: CAT_MESA
+- kind: glsl
+  name: CAT_PLAINS
+- kind: glsl
+  name: CAT_SAVANNA
+- kind: glsl
+  name: CAT_ICY
+- kind: glsl
+  name: CAT_THE_END
+- kind: glsl
+  name: CAT_BEACH
+- kind: glsl
+  name: CAT_FOREST
+- kind: glsl
+  name: CAT_OCEAN
+- kind: glsl
+  name: CAT_DESERT
+- kind: glsl
+  name: CAT_RIVER
+- kind: glsl
+  name: CAT_SWAMP
+- kind: glsl
+  name: CAT_MUSHROOM
+- kind: glsl
+  name: CAT_NETHER
+- kind: glsl
+  name: PPT_NONE
+- kind: glsl
+  name: PPT_RAIN
+- kind: glsl
+  name: PPT_SNOW
+operators: []
+types: []
+variables:
+- description:
+  - Position of a lightning bolt currently being rendered. If there are none, zero
+    is returned. If there is at least one, `w` is set to 1. If there are multiple,
+    a random one is chosen.
+  - Added in Iris 1.2.5
+  extensions: []
+  modifiers: uniform
+  name: lightningBoltPosition
+  type: vec4
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Controls the "thunder strength", equivalent to Optifine's rainStrength for thunder.
+  - Added in Iris 1.3
+  extensions: []
+  modifiers: uniform
+  name: thunderStrength
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Current player health from 0-1. Multiply by maxPlayerHealth to get the actual
+    value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: currentPlayerHealth
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Maximum player health value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: maxPlayerHealth
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Current player air from 0-1. Multiply by maxPlayerAir to get the actual value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: currentPlayerAir
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Maximum player air value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: maxPlayerAir
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Current player hunger from 0-1. Multiply by maxPlayerHunger to get the actual
+    value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: currentPlayerHunger
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Maximum player hunger value.
+  - Added in Iris 1.2.7
+  extensions: []
+  modifiers: uniform
+  name: maxPlayerHunger
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Current player armor from 0-1. Multiply by maxPlayerArmor to get the actual value.
+  - Added in Iris 1.6.15
+  extensions: []
+  modifiers: uniform
+  name: currentPlayerArmor
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Maximum player armor value.
+  - Added in Iris 1.6.15
+  extensions: []
+  modifiers: uniform
+  name: maxPlayerArmor
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when in first-person view.
+  - Added in Iris 1.4
+  extensions: []
+  modifiers: uniform
+  name: firstPersonCamera
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when in spectator mode.
+  - Added in Iris 1.4
+  extensions: []
+  modifiers: uniform
+  name: isSpectator
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - World space position of the player's head model. When in first person view, this
+    is equivalent to cameraPosition. In third person mode the two will differ.
+  - Added in Iris 1.4
+  extensions: []
+  modifiers: uniform
+  name: eyePosition
+  type: vec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - World space offset from the player model's head position to the camera's position
+    (cameraPosition - eyePosition).
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: relativeEyePosition
+  type: vec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - World alligned direction the player model's head is facing. Not affected by animations
+    such as swimming.
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: playerLookVector
+  type: vec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - World alligned direction the player model's body is facing (currently broken,
+    reads the same value as playerLookVector).
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: playerBodyVector
+  type: vec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The minimum height of the current dimension.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: bedrockLevel
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The maximum height of the current dimension.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: heightLimit
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Whether the current dimension has a ceiling (like the Nether).
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: hasCeiling
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Whether the current dimension has skylight.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: hasSkylight
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The ambient light value of the current dimension.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: ambientLight
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The logical height of the current dimension, which refers to the maximum height
+    to which chorus fruits and nether portals can bring players.
+  - Added in Iris 1.6
+  extensions: []
+  modifiers: uniform
+  name: logicalHeightLimit
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The height of vanilla clouds in the current dimension in blocks. Value is NaN
+    for dimensions without clouds.
+  - Added in Iris 1.6.9
+  extensions: []
+  modifiers: uniform
+  name: cloudHeight
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when the player is sneaking.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: is_sneaking
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when the player is sprinting.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: is_sprinting
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True for a short time after the player is hurt for any reason, then returns to
+    false.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: is_hurt
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True both when using an invisibility potion and when in spectator mode.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: is_invisible
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when the player is on fire.
+  - Added in Iris 1.5
+  extensions: []
+  modifiers: uniform
+  name: is_burning
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - True when the player is not flying and is on the ground, false otherwise.
+  - Added in Iris 1.6.5
+  extensions: []
+  modifiers: uniform
+  name: is_on_ground
+  type: bool
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - The color space used when displaying to the screen. 0 is sRGB, 1 is DCI_P3, 2
+    is Display P3, 3 is REC2020, 4 is Adobe RGB.
+  - Added in Iris 1.6.4
+  extensions: []
+  modifiers: uniform
+  name: currentColorSpace
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Identifies the biome currently occupied by the player. Can be compared with predefined
+    constants like BIOME_PLAINS, BIOME_RIVER, etc.
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: biome
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Identifies the biome category currently occupied by the player. Can be compared
+    with predefined constants like CAT_NONE, CAT_TAIGA, etc.
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: biome_category
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Tells what type of precipitation occurs in this biome. 0 is no precipitation (PPT_NONE),
+    1 is rain (PPT_RAIN), 2 is snow (PPT_SNOW).
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: biome_precipitation
+  type: int
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Measures the rainfall aspect of the biome as defined by Minecraft internally.
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: rainfall
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Measures the temperature aspect of the biome as defined by Minecraft internally.
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: temperature
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - 'OS reported date in the format: ivec3(year, month, day).'
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: currentDate
+  type: ivec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - 'OS reported time in the format: ivec3(hour, minute, second).'
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: currentTime
+  type: ivec3
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - 'OS reported year time in the format: ivec2(seconds_ellapsed_in_year, seconds_remaining_in_year).'
+  - Added in Iris 1.6.11
+  extensions: []
+  modifiers: uniform
+  name: currentYearTime
+  type: ivec2
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450
+- description:
+  - Controls the bounds for entity shadows to be rendered. By default, it is the value
+    set for terrain.
+  - Any floating point number that is not 1 is multiplied by the terrain distance
+    to get the final shadow distance multiplier.
+  - Added in Iris 1.2.1
+  extensions: []
+  modifiers: const
+  name: entityShadowDistanceMul
+  type: float
+  versions:
+  - 110
+  - 120
+  - 130
+  - 150
+  - 330
+  - 400
+  - 410
+  - 420
+  - 430
+  - 450

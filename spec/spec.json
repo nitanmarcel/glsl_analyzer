@@ -2,6 +2,366 @@
   "comment": "generated from docs.gl",
   "keywords": [
     {
+      "kind": "glsl",
+      "name": "BIOME_DESERT"
+    },
+    {
+      "kind": "glsl",
+      "name": "BIOME_PLAINS"
+    },
+    {
+      "kind": "glsl",
+      "name": "BIOME_RIVER"
+    },
+    {
+      "kind": "glsl",
+      "name": "BIOME_SWAMP"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_BEACH"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_DESERT"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_EXTREME_HILLS"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_FOREST"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_ICY"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_JUNGLE"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_MESA"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_MUSHROOM"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_NETHER"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_NONE"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_OCEAN"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_PLAINS"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_RIVER"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_SAVANNA"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_SWAMP"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_TAIGA"
+    },
+    {
+      "kind": "glsl",
+      "name": "CAT_THE_END"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_BLOCK_EMISSION_ATTRIBUTE"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_COMPUTE_SHADERS"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_CUSTOM_IMAGES"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_ENTITY_TRANSLUCENT"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_HIGHER_SHADOWCOLOR"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_PER_BUFFER_BLENDING"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_REVERSED_CULLING"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_SEPARATE_HARDWARE_SAMPLERS"
+    },
+    {
+      "kind": "glsl",
+      "name": "IRIS_FEATURE_SSBO"
+    },
+    {
+      "kind": "glsl",
+      "name": "IS_IRIS"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_ANISOTROPIC_FILTERING"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_FXAA_LEVEL"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GLSL_VERSION"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_GALLIUM"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_GEFORCE"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_INTEL"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_MESA"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_OTHER"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_QUADRO"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_RENDERER_RADEON"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_AMD"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_ATI"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_INTEL"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_MESA"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_NVIDIA"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_OTHER"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VENDOR_XORG"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_GL_VERSION"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_HAND_DEPTH"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_NORMAL_MAP"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OLD_HAND_LIGHT"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OLD_LIGHTING"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OS_LINUX"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OS_MAC"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OS_OTHER"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_OS_WINDOWS"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_QUALITY"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_BLOCK_ENTITIES"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_CLOUDS"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_CUSTOM_SKY"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_DEBUG"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_DESTROY"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_ENTITIES"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_HAND_SOLID"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_HAND_TRANSLUCENT"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_MOON"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_NONE"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_OUTLINE"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_PARTICLES"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_RAIN_SNOW"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_SKY"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_STARS"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_SUN"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_SUNSET"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_TERRAIN_CUTOUT"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_TERRAIN_CUTOUT_MIPPED"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_TERRAIN_SOLID"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_TERRAIN_TRANSLUCENT"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_TRIPWIRE"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_VOID"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_RENDER_STAGE_WORLD_BORDER"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_SHADOW_QUALITY"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_SPECULAR_MAP"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_TEXTURE_FORMAT_LAB_PBR"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_TEXTURE_FORMAT_LAB_PBR_1_3"
+    },
+    {
+      "kind": "glsl",
+      "name": "MC_VERSION"
+    },
+    {
+      "kind": "glsl",
+      "name": "PPT_NONE"
+    },
+    {
+      "kind": "glsl",
+      "name": "PPT_RAIN"
+    },
+    {
+      "kind": "glsl",
+      "name": "PPT_SNOW"
+    },
+    {
       "name": "active",
       "kind": "reserved"
     },
@@ -2176,6 +2536,1704 @@
   ],
   "variables": [
     {
+      "description": [
+        "Value: mat4(vec4(0.00390625, 0.0, 0.0, 0.0), vec4(0.0, 0.00390625, 0.0, 0.0), vec4(0.0, 0.0, 0.00390625, 0.0), vec4(0.03125, 0.03125, 0.03125, 1.0))"
+      ],
+      "extensions": [],
+      "modifiers": "const",
+      "name": "TEXTURE_MATRIX_2",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "alpha test reference value, the check is \"if (color.a < alphaTestRef) discard;\""
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "alphaTestRef",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The ambient light value of the current dimension.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "ambientLight",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "viewWidth / viewHeight"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "aspectRatio",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "offset to block center in 1/64m units       Only for blocks"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "at_midBlock",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "xyz = tangent vector, w = handedness"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "at_tangent",
+      "type": "vec4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "vertex offset to previous frame In view space, only for entities and block entities"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "at_velocity",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "texture atlas size (only set when the atlas texture is bound)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "atlasSize",
+      "type": "ivec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The minimum height of the current dimension.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "bedrockLevel",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Identifies the biome currently occupied by the player. Can be compared with predefined constants like BIOME_PLAINS, BIOME_RIVER, etc.",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "biome",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Identifies the biome category currently occupied by the player. Can be compared with predefined constants like CAT_NONE, CAT_TAIGA, etc.",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "biome_category",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Tells what type of precipitation occurs in this biome. 0 is no precipitation (PPT_NONE), 1 is rain (PPT_RAIN), 2 is snow (PPT_SNOW).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "biome_precipitation",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "blend function (srcRGB, dstRGB, srcAlpha, dstAlpha)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "blendFunc",
+      "type": "ivec4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "blindness (0.0-1.0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "blindness",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "block entity ID (block ID for the tile entity, only for blocks specified in \"block.properties\")"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "blockEntityId",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "1 = custom, 2 = ender dragon, 3 = wither, 4 = raid"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "bossBattle",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "camera position in world space"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "cameraPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "centerDepth smoothed with centerDepthSmoothHalflife"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "centerDepthSmooth",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The height of vanilla clouds in the current dimension in blocks. Value is NaN for dimensions without clouds.",
+        "Added in Iris 1.6.9"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "cloudHeight",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex0",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "1"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex1",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "18 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex10",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "19 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex11",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "20 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex12",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "21 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex13",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "22 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex14",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "23 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex15",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "2"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex2",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "3"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex3",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "7  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex4",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "8  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex5",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "9  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex6",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "10 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex7",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "16 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex8",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "17 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "colortex9",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "3"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "composite",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The color space used when displaying to the screen. 0 is sRGB, 1 is DCI_P3, 2 is Display P3, 3 is REC2020, 4 is Adobe RGB.",
+        "Added in Iris 1.6.4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentColorSpace",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "OS reported date in the format: ivec3(year, month, day).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentDate",
+      "type": "ivec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Current player air from 0-1. Multiply by maxPlayerAir to get the actual value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentPlayerAir",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Current player armor from 0-1. Multiply by maxPlayerArmor to get the actual value.",
+        "Added in Iris 1.6.15"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentPlayerArmor",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Current player health from 0-1. Multiply by maxPlayerHealth to get the actual value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentPlayerHealth",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Current player hunger from 0-1. Multiply by maxPlayerHunger to get the actual value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentPlayerHunger",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "OS reported time in the format: ivec3(hour, minute, second).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentTime",
+      "type": "ivec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "OS reported year time in the format: ivec2(seconds_ellapsed_in_year, seconds_remaining_in_year).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "currentYearTime",
+      "type": "ivec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "strength of the darkness effect (0.0-1.0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "darknessFactor",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "lightmap variations caused by the darkness effect (0.0-1.0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "darknessLightFactor",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "6"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "depthtex0",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "depthtex1",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "12"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "depthtex2",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "entity color multiplier (entity hurt, creeper flashing when exploding)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "entityColor",
+      "type": "vec4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "entity ID"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "entityId",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Controls the bounds for entity shadows to be rendered. By default, it is the value set for terrain.",
+        "Any floating point number that is not 1 is multiplied by the terrain distance to get the final shadow distance multiplier.",
+        "Added in Iris 1.2.1"
+      ],
+      "extensions": [],
+      "modifiers": "const",
+      "name": "entityShadowDistanceMul",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "view entity Y position"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "eyeAltitude",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "x = block brightness, y = sky brightness, light 0-15 = brightness 0-240"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "eyeBrightness",
+      "type": "ivec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "eyeBrightness smoothed with eyeBrightnessHalflife"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "eyeBrightnessSmooth",
+      "type": "ivec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "World space position of the player's head model. When in first person view, this is equivalent to cameraPosition. In third person mode the two will differ.",
+        "Added in Iris 1.4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "eyePosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "far viewing plane distance"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "far",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when in first-person view.",
+        "Added in Iris 1.4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "firstPersonCamera",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "r, g, b"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogColor",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0.0-1.0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogDensity",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "fog end distance (m)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogEnd",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "GL_LINEAR, GL_EXP or GL_EXP2"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogMode",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0 = sphere, 1 = cylinder"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogShape",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "fog start distance (m)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "fogStart",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Frame index (0 to 720719, then resets to 0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "frameCounter",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "last frame time, seconds"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "frameTime",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "run time, seconds (resets to 0 after 3600s)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "frameTimeCounter",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "7  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gaux1",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "8  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gaux2",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "9  <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gaux3",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "10 <custom texture or output from deferred programs>"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gaux4",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "modelview matrix after setting up the camera transformations"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferModelView",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse gbufferModelView"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferModelViewInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "last frame gbufferModelView"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferPreviousModelView",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "last frame gbufferProjection"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferPreviousProjection",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "projection matrix when the gbuffers were generated"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferProjection",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse gbufferProjection"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gbufferProjectionInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gcolor",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "1"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gdepth",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "6"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gdepthtex",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
       "modifiers": "in",
       "type": "vec3",
       "name": "gl_BaryCoordEXT",
@@ -2756,6 +4814,17 @@
       ],
       "extensions": [
         "GL_NV_ray_tracing"
+      ]
+    },
+    {
+      "description": [
+        "The variable `gl_InstanceIndex` is a vertex language input variable that holds the instance number of the current primitive in an instanced draw call, relative to a base. If the current primitive does not come from an instanced draw call, the value of `gl_InstanceIndex` is zero."
+      ],
+      "modifiers": "in",
+      "name": "gl_InstanceIndex",
+      "type": "int",
+      "versions": [
+        450
       ]
     },
     {
@@ -4383,6 +6452,17 @@
       ]
     },
     {
+      "description": [
+        "The variable `gl_VertexIndex` is a vertex language input variable that holds an integer index for the vertex, relative to a base. While the variable `gl_VertexIndex` is always present, its value is not always defined."
+      ],
+      "modifiers": "in",
+      "name": "gl_VertexIndex",
+      "type": "int",
+      "versions": [
+        450
+      ]
+    },
+    {
       "modifiers": "in",
       "type": "int",
       "name": "gl_VertexIndex",
@@ -4752,6 +6832,1768 @@
       ],
       "extensions": [
         "GL_NV_ray_tracing"
+      ]
+    },
+    {
+      "description": [
+        "2"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gnormal",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "gtexture",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Whether the current dimension has a ceiling (like the Nether).",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "hasCeiling",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Whether the current dimension has skylight.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "hasSkylight",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The maximum height of the current dimension.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "heightLimit",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "held item light value (main hand)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "heldBlockLightValue",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "held item light value (off hand)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "heldBlockLightValue2",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "held item ID (main hand), used only for items defined in \"item.properties\""
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "heldItemId",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "held item ID (off hand), used only for items defined in \"item.properties\""
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "heldItemId2",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "GUI is hidden"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "hideGUI",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "instance ID when instancing is enabled (countInstances > 1), 0 = original, 1-N = copies"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "instanceId",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "1 = camera is in water, 2 = camera is in lava, 3 = camera is in powder snow"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "isEyeInWater",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when in spectator mode.",
+        "Added in Iris 1.4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "isSpectator",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when the player is on fire.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_burning",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True for a short time after the player is hurt for any reason, then returns to false.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_hurt",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True both when using an invisibility potion and when in spectator mode.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_invisible",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when the player is not flying and is on the ground, false otherwise.",
+        "Added in Iris 1.6.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_on_ground",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when the player is sneaking.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_sneaking",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "True when the player is sprinting.",
+        "Added in Iris 1.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "is_sprinting",
+      "type": "bool",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "1"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "lightmap",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Position of a lightning bolt currently being rendered. If there are none, zero is returned. If there is at least one, `w` is set to 1. If there are multiple, a random one is chosen.",
+        "Added in Iris 1.2.5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "lightningBoltPosition",
+      "type": "vec4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "The logical height of the current dimension, which refers to the maximum height to which chorus fruits and nether portals can bring players.",
+        "Added in Iris 1.6"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "logicalHeightLimit",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Maximum player air value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "maxPlayerAir",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Maximum player armor value.",
+        "Added in Iris 1.6.15"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "maxPlayerArmor",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Maximum player health value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "maxPlayerHealth",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Maximum player hunger value.",
+        "Added in Iris 1.2.7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "maxPlayerHunger",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "xy = blockId, renderType        \"blockId\" is used only for blocks specified in \"block.properties\""
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "mc_Entity",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "st = midTexU, midTexV           Sprite middle UV coordinates"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "mc_midTexCoord",
+      "type": "vec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "used by terrain chunks (with attribute \"vaPosition\") and clouds, replaces chunkOffset (1.21.2+)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "modelOffset",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "model view matrix"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "modelViewMatrix",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse model view matrix"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "modelViewMatrixInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0-7"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "moonPhase",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "moon position in eye space"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "moonPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "near viewing plane distance"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "near",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "night vision (0.0-1.0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "nightVision",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "15"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "noisetex",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "normal matrix"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "normalMatrix",
+      "type": "mat3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "2"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "normals",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "World alligned direction the player model's body is facing (currently broken, reads the same value as playerLookVector).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "playerBodyVector",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "World alligned direction the player model's head is facing. Not affected by animations such as swimming.",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "playerLookVector",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "player mood (0.0-1.0), increases the longer a player stays underground"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "playerMood",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "last frame cameraPosition"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "previousCameraPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "projection matrix"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "projectionMatrix",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse projection matrix"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "projectionMatrixInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0.0-1.0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "rainStrength",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Measures the rainfall aspect of the biome as defined by Minecraft internally.",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "rainfall",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "World space offset from the player model's head position to the camera's position (cameraPosition - eyePosition).",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "relativeEyePosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "render stage, see \"Standard Macros\", \"J. Render stages\""
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "renderStage",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "screen brightness (0.0-1.0)"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "screenBrightness",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "waterShadowEnabled ? 5 : 4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadow",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0.0-1.0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowAngle",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "shadow light (sun or moon) position in eye space"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowLightPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "modelview matrix when the shadow map was generated"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowModelView",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse shadowModelView"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowModelViewInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "projection matrix when the shadow map was generated"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowProjection",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "inverse shadowProjection"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowProjectionInverse",
+      "type": "mat4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "13"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowcolor",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "13"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowcolor0",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "14"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowcolor1",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowtex0",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "5"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "shadowtex1",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "r, g, b"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "skyColor",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "3"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "specular",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "sprite bounds in the texture atlas (u0, v0, u1, v1), set when MC_ANISOTROPIC_FILTERING is enabled"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "spriteBounds",
+      "type": "vec4",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0.0-1.0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "sunAngle",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "sun position in eye space"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "sunPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Measures the temperature aspect of the biome as defined by Minecraft internally.",
+        "Added in Iris 1.6.11"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "temperature",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "not used"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "terrainIconSize",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "not used"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "terrainTextureSize",
+      "type": "ivec2",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "0"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "tex",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "Controls the \"thunder strength\", equivalent to Optifine's rainStrength for thunder.",
+        "Added in Iris 1.3"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "thunderStrength",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "direction up"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "upPosition",
+      "type": "vec3",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "color (r, g, b, a)1.17+"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaColor",
+      "type": "vec4",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "normal (x, y, z)  1.17+"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaNormal",
+      "type": "vec3",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "position (x, y, z)1.17+, for terrain it is relative to the chunk origin, see \"modelOffset\""
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaPosition",
+      "type": "vec3",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "texture (u, v) 1.17+"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaUV0",
+      "type": "vec2",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "overlay (u, v) 1.17+"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaUV1",
+      "type": "ivec2",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "lightmap (u, v) 1.17+"
+      ],
+      "extensions": [],
+      "modifiers": "in",
+      "name": "vaUV2",
+      "type": "ivec2",
+      "versions": [
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "viewHeight"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "viewHeight",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "viewWidth"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "viewWidth",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "4"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "watershadow",
+      "type": "sampler2D",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "rainStrength smoothed with wetnessHalfLife or drynessHalfLife"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "wetness",
+      "type": "float",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "<days> = worldTicks / 24000"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "worldDay",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
+      ]
+    },
+    {
+      "description": [
+        "<ticks> = worldTicks % 24000"
+      ],
+      "extensions": [],
+      "modifiers": "uniform",
+      "name": "worldTime",
+      "type": "int",
+      "versions": [
+        110,
+        120,
+        130,
+        150,
+        330,
+        400,
+        410,
+        420,
+        430,
+        450
       ]
     }
   ],
@@ -5243,24 +9085,6 @@
       ]
     },
     {
-      "return_type": "float",
-      "name": "atomicAdd",
-      "parameters": [
-        {
-          "modifiers": "inout",
-          "type": "float",
-          "name": "mem"
-        },
-        {
-          "type": "float",
-          "name": "data"
-        }
-      ],
-      "extensions": [
-        "GL_EXT_shader_atomic_float"
-      ]
-    },
-    {
       "return_type": "float16_t",
       "name": "atomicAdd",
       "parameters": [
@@ -5276,6 +9100,24 @@
       ],
       "extensions": [
         "GL_EXT_shader_atomic_float2"
+      ]
+    },
+    {
+      "return_type": "float",
+      "name": "atomicAdd",
+      "parameters": [
+        {
+          "modifiers": "inout",
+          "type": "float",
+          "name": "mem"
+        },
+        {
+          "type": "float",
+          "name": "data"
+        }
+      ],
+      "extensions": [
+        "GL_EXT_shader_atomic_float"
       ]
     },
     {
@@ -5546,24 +9388,6 @@
       ]
     },
     {
-      "return_type": "float",
-      "name": "atomicExchange",
-      "parameters": [
-        {
-          "modifiers": "inout",
-          "type": "float",
-          "name": "mem"
-        },
-        {
-          "type": "float",
-          "name": "data"
-        }
-      ],
-      "extensions": [
-        "GL_EXT_shader_atomic_float"
-      ]
-    },
-    {
       "return_type": "float16_t",
       "name": "atomicExchange",
       "parameters": [
@@ -5583,7 +9407,7 @@
     },
     {
       "return_type": "float",
-      "name": "atomicLoad",
+      "name": "atomicExchange",
       "parameters": [
         {
           "modifiers": "inout",
@@ -5591,16 +9415,8 @@
           "name": "mem"
         },
         {
-          "type": "int",
-          "name": "scope"
-        },
-        {
-          "type": "int",
-          "name": "storage"
-        },
-        {
-          "type": "int",
-          "name": "sem"
+          "type": "float",
+          "name": "data"
         }
       ],
       "extensions": [
@@ -5631,6 +9447,32 @@
       ],
       "extensions": [
         "GL_EXT_shader_atomic_float2"
+      ]
+    },
+    {
+      "return_type": "float",
+      "name": "atomicLoad",
+      "parameters": [
+        {
+          "modifiers": "inout",
+          "type": "float",
+          "name": "mem"
+        },
+        {
+          "type": "int",
+          "name": "scope"
+        },
+        {
+          "type": "int",
+          "name": "storage"
+        },
+        {
+          "type": "int",
+          "name": "sem"
+        }
+      ],
+      "extensions": [
+        "GL_EXT_shader_atomic_float"
       ]
     },
     {
@@ -5855,36 +9697,6 @@
       "parameters": [
         {
           "modifiers": "inout",
-          "type": "float",
-          "name": "mem"
-        },
-        {
-          "type": "float",
-          "name": "data"
-        },
-        {
-          "type": "int",
-          "name": "scope"
-        },
-        {
-          "type": "int",
-          "name": "storage"
-        },
-        {
-          "type": "int",
-          "name": "sem"
-        }
-      ],
-      "extensions": [
-        "GL_EXT_shader_atomic_float"
-      ]
-    },
-    {
-      "return_type": "void",
-      "name": "atomicStore",
-      "parameters": [
-        {
-          "modifiers": "inout",
           "type": "float16_t",
           "name": "mem"
         },
@@ -5907,6 +9719,36 @@
       ],
       "extensions": [
         "GL_EXT_shader_atomic_float2"
+      ]
+    },
+    {
+      "return_type": "void",
+      "name": "atomicStore",
+      "parameters": [
+        {
+          "modifiers": "inout",
+          "type": "float",
+          "name": "mem"
+        },
+        {
+          "type": "float",
+          "name": "data"
+        },
+        {
+          "type": "int",
+          "name": "scope"
+        },
+        {
+          "type": "int",
+          "name": "storage"
+        },
+        {
+          "type": "int",
+          "name": "sem"
+        }
+      ],
+      "extensions": [
+        "GL_EXT_shader_atomic_float"
       ]
     },
     {
@@ -8171,14 +12013,6 @@
       "return_type": "void",
       "name": "groupMemoryBarrier",
       "parameters": [],
-      "extensions": [
-        "GL_KHR_memory_scope_semantics"
-      ]
-    },
-    {
-      "return_type": "void",
-      "name": "groupMemoryBarrier",
-      "parameters": [],
       "description": [
         "(modify last paragraph, p. 187)",
         "... all of the above variable types. The functions `memoryBarrierShared()`\nand `groupMemoryBarrier()` are available only in compute, task, and mesh\nshaders; the other functions are available in all shader types.",
@@ -8187,6 +12021,14 @@
       ],
       "extensions": [
         "GL_EXT_mesh_shader"
+      ]
+    },
+    {
+      "return_type": "void",
+      "name": "groupMemoryBarrier",
+      "parameters": [],
+      "extensions": [
+        "GL_KHR_memory_scope_semantics"
       ]
     },
     {
@@ -16361,7 +20203,7 @@
       "name": "memoryBarrierShared",
       "parameters": [],
       "extensions": [
-        "GL_KHR_memory_scope_semantics"
+        "GL_EXT_mesh_shader"
       ]
     },
     {
@@ -16369,7 +20211,7 @@
       "name": "memoryBarrierShared",
       "parameters": [],
       "extensions": [
-        "GL_EXT_mesh_shader"
+        "GL_KHR_memory_scope_semantics"
       ]
     },
     {
