@@ -74,7 +74,7 @@ fn addExecutable(b: *std.Build, options: struct {
     optimize: std.builtin.OptimizeMode,
 }) !*std.Build.Step.Compile {
     const exe = b.addExecutable(.{
-        .name = "glsl_analyzer",
+        .name = "mc_glsl_analyzer",
         .root_source_file = b.path("src/main.zig"),
         .target = options.target,
         .optimize = options.optimize,

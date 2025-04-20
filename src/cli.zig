@@ -1,6 +1,6 @@
 const std = @import("std");
 
-pub const NAME = "glsl_analyzer";
+pub const NAME = "mc_glsl_analyzer";
 
 pub const Arguments = struct {
     version: bool = false,
@@ -31,7 +31,7 @@ pub const Arguments = struct {
         \\     --print-ast          Prints the parse tree. Only valid with --parse-file.
         \\
         \\
-    ;
+        ;
 
     fn printHelp() noreturn {
         std.io.getStdOut().writer().writeAll(usage) catch {};

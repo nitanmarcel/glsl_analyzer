@@ -22,7 +22,7 @@ import expected_completion
 
 
 @pytest_lsp.fixture(config=pytest_lsp.ClientServerConfig(
-    server_command=["glsl_analyzer", "--stdio", "--clientProcessId", str(os.getpid())]
+    server_command=["mc_glsl_analyzer", "--stdio", "--clientProcessId", str(os.getpid())]
 ))
 async def client(lsp_client: pytest_lsp.LanguageClient):
     """A fixtre that carries a fake client."""

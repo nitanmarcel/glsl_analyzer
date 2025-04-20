@@ -1,4 +1,4 @@
-# `glsl_analyzer/tests`
+# `mc_glsl_analyzer/tests`
 
 - [How do I run the tests?](#how-do-i-run-the-tests)
 - [LSP tests](#lsp-tests)
@@ -18,7 +18,7 @@
 
 **Requirements:** `python 3.10` and `requirements.txt`.
 
-*The `glsl_analyzer` version you want to test must be available in your PATH.*
+*The `mc_glsl_analyzer` version you want to test must be available in your PATH.*
 
 You can run the tests by directly invoking `pytest`:
 
@@ -266,7 +266,7 @@ We always expect failure in *strict mode*: if the test was expected to fail, but
 
 ## Parser tests
 
-Parser tests are simple pytest scripts that run the parser with `glsl_analyzer --parse-file` on a set of files. Currently we only test successful parsing on well-formed code and check that the `glsl_analyzer` did not output anything into `stderr`.
+Parser tests are simple pytest scripts that run the parser with `mc_glsl_analyzer --parse-file` on a set of files. Currently we only test successful parsing on well-formed code and check that the `mc_glsl_analyzer` did not output anything into `stderr`.
 
 Run only the parser tests by executing
 

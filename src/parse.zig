@@ -1878,7 +1878,7 @@ test "parse logical operator" {
 }
 
 test "parse switch" {
-    // From: https://github.com/nolanderc/glsl_analyzer/issues/7
+    // From: https://github.com/nolanderc/mc_glsl_analyzer/issues/7
     try expectParsesOkay(
         \\#version 430 core
         \\
@@ -1891,7 +1891,7 @@ test "parse switch" {
 }
 
 test "parse discard" {
-    // From: https://github.com/nolanderc/glsl_analyzer/issues/15
+    // From: https://github.com/nolanderc/mc_glsl_analyzer/issues/15
     try expectParsesOkay(
         \\#version 330 core
         \\void main() {
@@ -1907,7 +1907,7 @@ test "parse discard" {
 }
 
 test "parse field selector" {
-    // From: https://github.com/nolanderc/glsl_analyzer/issues/15
+    // From: https://github.com/nolanderc/mc_glsl_analyzer/issues/15
     try expectParsesOkay(
         \\#version 330 core
         \\void main() {

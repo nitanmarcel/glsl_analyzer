@@ -33,7 +33,7 @@ def test_parser_in_directory(
 
         with subtests.test(msg=str(file)):
             output = subprocess.run(
-                args=("glsl_analyzer", "--parse-file", str(file)),
+                args=("mc_glsl_analyzer", "--parse-file", str(file)),
                 capture_output=True,
                 text=True
             )

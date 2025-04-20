@@ -1,5 +1,5 @@
 
-# `glsl_analyzer`
+# `mc_glsl_analyzer`
 
 Language server for GLSL (OpenGL Shading Language).
 
@@ -28,13 +28,13 @@ Language server for GLSL (OpenGL Shading Language).
 ### Screenshots
 
 #### Completion
-![completion](https://github.com/nolanderc/glsl_analyzer-vscode/blob/main/screenshots/completion.gif)
+![completion](https://github.com/nolanderc/mc_glsl_analyzer-vscode/blob/main/screenshots/completion.gif)
 
 #### Formatting
-![formatting](https://github.com/nolanderc/glsl_analyzer-vscode/blob/main/screenshots/formatting.gif)
+![formatting](https://github.com/nolanderc/mc_glsl_analyzer-vscode/blob/main/screenshots/formatting.gif)
 
 #### Goto-Definition
-![goto definition](https://github.com/nolanderc/glsl_analyzer-vscode/blob/main/screenshots/goto-definition.gif)
+![goto definition](https://github.com/nolanderc/mc_glsl_analyzer-vscode/blob/main/screenshots/goto-definition.gif)
 
 
 ### In the pipeline
@@ -45,7 +45,7 @@ Language server for GLSL (OpenGL Shading Language).
 ## Installation
 
 We provide precompiled binaries for Linux, MacOS and Windows on the
-[Releases](https://github.com/nolanderc/glsl_analyzer/releases) page.
+[Releases](https://github.com/nolanderc/mc_glsl_analyzer/releases) page.
 Make sure to copy it somewhere under your `PATH` environment variable (e.g.
 `~/.local/bin` on Linux).
 
@@ -62,24 +62,24 @@ Tested using `zig 0.14.0`.
 
 ## Usage
 
-By default `glsl_analyzer` communicates over stdin/stdout:
+By default `mc_glsl_analyzer` communicates over stdin/stdout:
 
 ```sh
-glsl_analyzer
+mc_glsl_analyzer
 ```
 
 However, you can configure it to use a specific port (TCP) using the following command:
 
 ```sh
-glsl_analyzer --port <PORT>
+mc_glsl_analyzer --port <PORT>
 ```
 
 ### Neovim
 
-[`nvim-lspconfig`](https://github.com/neovim/nvim-lspconfig) comes with support for `glsl_analyzer`. Simply add the following to your lua config:
+[`nvim-lspconfig`](https://github.com/neovim/nvim-lspconfig) comes with support for `mc_glsl_analyzer`. Simply add the following to your lua config:
 
 ```lua
-require'lspconfig'.glsl_analyzer.setup{}
+require'lspconfig'.mc_glsl_analyzer.setup{}
 ```
 
 ### Visual Studio Code

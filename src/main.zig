@@ -434,7 +434,7 @@ pub const Dispatch = struct {
                 .documentFormattingProvider = true,
                 .definitionProvider = true,
             },
-            .serverInfo = .{ .name = "glsl_analyzer" },
+            .serverInfo = .{ .name = "mc_glsl_analyzer" },
         });
 
         state.initialized = true;
